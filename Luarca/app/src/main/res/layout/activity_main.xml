@@ -9,8 +9,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.luarca84.diego.luarca.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Youtube"
+                android:onClick="onClickButtonYoutube"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ayuntamiento"
+                android:onClick="onClickButtonAyuntamiento"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turismo Luarca"
+                android:onClick="onClickButtonTurismoLuarca"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wikipedia"
+                android:onClick="onClickButtonWikipedia"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juegos:"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Puzzle"
+                android:onClick="onClickButtonPuzzle"/>
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>
