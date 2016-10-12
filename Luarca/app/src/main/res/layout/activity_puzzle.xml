@@ -15,25 +15,27 @@
         android:orientation="vertical">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nueva Imagen"
             android:onClick="onClickButtonNewImage"/>
 
         <ImageView
             android:id="@+id/imageview_main"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:src="@drawable/luarca"/>
 
         <GridView
             android:id="@+id/gridview_main"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:padding="1dp"
             android:gravity="center"
-            android:stretchMode= "columnWidth"
+            android:stretchMode="columnWidth"
             >
 
         </GridView>
