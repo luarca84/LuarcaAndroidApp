@@ -17,11 +17,22 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/luarca"
+                android:layout_gravity="center"
+                />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Youtube"
                 android:onClick="onClickButtonYoutube"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Google Maps"
+                android:onClick="onClickButtonGoogleMaps"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

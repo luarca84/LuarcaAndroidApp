@@ -20,6 +20,11 @@ public class MainActivity extends AppCompatActivity {
         goToUrl("https://www.youtube.com/watch?v=rAWI-MpvIZk");
     }
 
+    public void onClickButtonGoogleMaps(View view)
+    {
+        goToUrl("https://www.google.es/maps/place/Puerto+de+Luarca/@43.5460176,-6.5337976,17.75z/data=!4m5!3m4!1s0x0:0xd6d413abd6b71be8!8m2!3d43.5469758!4d-6.532978?hl=en");
+    }
+
     public void onClickButtonAyuntamiento(View view)
     {
         goToUrl("http://www.valdes.es/");
